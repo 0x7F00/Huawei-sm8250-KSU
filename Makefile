@@ -1418,8 +1418,8 @@ endif
 export LCD_KIT_DTS_OUT
 TOP_DIR := $(srctree)/../..
 config_generate_dir := ${LCD_KIT_DTS_OUT}/lcdkit3.0
-LCD_KIT_TOOLPATH := drivers/devkit/lcdkit/lcdkit3.0/tools
-LCD_KIT_DPD_FILE_PATH = $(TOP_DIR)/out/target/product/$(TARGET_PRODUCT)/obj/KERNEL_OBJ/drivers/devkit/lcdkit/lcdkit3.0/kernel/qcom/common/src
+LCD_KIT_TOOLPATH := /home/runner/work/Huawei-sm8250-KSU/Huawei-sm8250-KSU/drivers/devkit/lcdkit/lcdkit3.0/tools
+LCD_KIT_DPD_FILE_PATH =/home/runner/work/Huawei-sm8250-KSU/Huawei-sm8250-KSU/drivers/devkit/lcdkit/lcdkit3.0/kernel/qcom/common/src
 DTS_TYPE := trebledto
 $(info "22222")
 lcd_kit: FORCE
